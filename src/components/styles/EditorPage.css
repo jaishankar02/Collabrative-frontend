@@ -1,0 +1,49 @@
+.mainWrap {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    height: 100dvh;
+}
+
+.aside {
+    background: #1c1e29;
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+
+}
+
+.asideInner {
+    flex: 1;
+}
+
+.clientsList {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.btn{
+    border-radius: 5px;
+    /* width: 10dvw; */
+    height: 35px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.leaveBtn{
+    margin-top: 10px;
+    color: #282a36;
+    background-color: #4aed88;
+    
+}
+.leaveBtn:hover{
+    background-color:#2b824c ;
+}
+.editorWrap{
+    height: 100dvh;
+    overflow: auto;
+}
